@@ -71,8 +71,8 @@ public class MainActivity extends AppCompatActivity {
         textView=findViewById(R.id.textView);
         button=findViewById(R.id.button);
 
-        seekBar.setMax(600);
-        seekBar.setProgress(30);
+        seekBar.setMax(600); // 10 minutes
+        seekBar.setProgress(30); // 30 seconds
 
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
