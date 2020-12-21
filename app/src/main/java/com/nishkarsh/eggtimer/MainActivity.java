@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
                 @Override
                 public void onFinish() {
-                    MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.sound);
+                    MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.sound);  // Horn sound
                     mediaPlayer.start();
                     reset();
                 }
